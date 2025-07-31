@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CallNexus/static/css/main.e022e2dd.css",
-    "main.js": "/CallNexus/static/js/main.6d4fd64e.js",
+    "main.js": "/CallNexus/static/js/main.132969b1.js",
     "static/js/453.d707c5d5.chunk.js": "/CallNexus/static/js/453.d707c5d5.chunk.js",
     "index.html": "/CallNexus/index.html",
     "main.e022e2dd.css.map": "/CallNexus/static/css/main.e022e2dd.css.map",
-    "main.6d4fd64e.js.map": "/CallNexus/static/js/main.6d4fd64e.js.map",
+    "main.132969b1.js.map": "/CallNexus/static/js/main.132969b1.js.map",
     "453.d707c5d5.chunk.js.map": "/CallNexus/static/js/453.d707c5d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e022e2dd.css",
-    "static/js/main.6d4fd64e.js"
+    "static/js/main.132969b1.js"
   ]
 }
