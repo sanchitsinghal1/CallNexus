@@ -1,0 +1,54 @@
+
+
+
+import React from "react";
+import { JitsiMeeting } from "@jitsi/react-sdk";
+// import { StaticRouter } from "react-router-dom";
+
+function VideoCall() {
+  return (
+    <div style={{ 
+      height: "100vh", 
+      width: "100vw", 
+      display: "flex", 
+      justifyContent: "center", 
+      alignItems: "center", 
+      // backgroundColor: "FBF5DE", ye dost string hai aur hex ko # main likhte hai
+      backgroundColor: "#FBF5DE",
+
+
+      
+      overflow: "hidden"  // Extra white space remove karne ke liye
+      
+    }}>
+      <JitsiMeeting
+        roomName="DoctorConsultationRoom"
+        configOverwrite={{
+          startWithAudioMuted: true,
+          // StaticRouter:false,//this is only for practice /
+          
+          
+          startWithVideoMuted: true,
+          disableModeratorIndicator: true,
+          disableThirdPartyRequests: true, // Google Calendar pop-up disable
+        }}
+        getIFrameRef={node => {
+          if (node) {
+            node.style.height = "100vh";  // Iframe ka height fix
+            node.style.width = "100vw";   // Iframe ka width fi
+          }
+        }}
+      />
+    </div>
+  );
+}
+const MyButton = () => {
+  return (
+    <button style={{ backgroundColor: 'pink', color: 'pink', padding: '10px' }}>
+      Click Me
+    </button>
+  );}
+
+export default VideoCall;
+
+
