@@ -4,7 +4,7 @@ CallNexus is a video calling application built with **React.js** and the **Jitsi
 
 I created this project to learn how to integrate reliable video conferencing capabilities into a custom frontend. Unlike standard Jitsi links, this app embeds the video call directly into the UI, removes external branding, and provides a cleaner, distraction-free experience.
 
-🔗 **Live Demo:** 
+🔗 **Live Demo: https://sanchitsinghal1.github.io/CallNexus/
 
 ## Features
 
